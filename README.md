@@ -7,8 +7,15 @@ C MORSE is a MORSE to ASCII converter and vice versa.
 Clone the repo to your local machine and run the command `make`<br/>
 This will produce a new program called `morse`.<br />
 Usage:<br />
+
 ```bash
-./morse [-ds] [string ...]
+# SYNOPSIS
+./morse -a [string1]	[string2]	[string3]	...
+./morse -d [morse rep1]	[morse rep2]	[morse rep3]	...
+
+# DESCRIPTION
+# -d: converts a string into morse code
+# -s: converts a morse code into string
 ```
 
 ## MORSE Code table:
