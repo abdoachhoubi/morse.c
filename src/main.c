@@ -30,7 +30,7 @@ int main(int argc, char **argv)
 			break;
 		case '?':
 		default:
-			fprintf(stderr, "usage: morse [-ds] [string ...]\n");
+			fprintf(stderr, "usage: ./morse [-ds] [string ...]\n");
 			exit(1);
 		}
 	argc -= optind;
