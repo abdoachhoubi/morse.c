@@ -10,12 +10,12 @@ Usage:<br />
 
 ```bash
 # SYNOPSIS
-./morse -a [string1]	[string2]	[string3]	...
+./morse -s [string1]	[string2]	[string3]	...
 ./morse -d [morse rep1]	[morse rep2]	[morse rep3]	...
 
 # DESCRIPTION
-# -d: converts a string into morse code
-# -s: converts a morse code into string
+# -s: converts a string into morse code
+# -d: converts a morse code into string
 ```
 
 ## MORSE Code table:
